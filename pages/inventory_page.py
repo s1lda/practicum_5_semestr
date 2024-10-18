@@ -12,6 +12,8 @@ class ProductsPage:
         self.prices_elements = page.locator("[data-test='inventory-item-price']")
         self.cart_items = self.page.locator(".shopping_cart_badge")
         self.total_item = self.page.locator(".inventory_item")
+        self.inventory_item_name_locator = self.page.locator("div.inventory_item_name") 
+
 
     def click_button_add_to_cart(self, product_name: str):
         add_to_cart_locator = f"{self.add_to_cart_button_prefix}{product_name}']"

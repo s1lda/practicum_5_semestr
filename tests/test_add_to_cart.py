@@ -8,4 +8,4 @@ def test_add_to_cart(page):
     products=ProductsPage(page)  
     products.click_button_add_to_cart("sauce-labs-backpack")
     products.click_button_shopping_cart()    
-    assert page.is_visible("div.inventory_item_name")
+    assert products.inventory_item_name_locator.is_visible()
