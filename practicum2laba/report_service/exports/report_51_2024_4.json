@@ -1,0 +1,20 @@
+{
+  "user_id": "51",
+  "year": 2024,
+  "month": 4,
+  "total_income": 892.85,
+  "total_expense": 1244.0,
+  "balance": -351.15,
+  "categories": [
+    {
+      "category": "food",
+      "income": 0.0,
+      "expense": 1244.0
+    },
+    {
+      "category": "gift",
+      "income": 892.85,
+      "expense": 0.0
+    }
+  ]
+}
