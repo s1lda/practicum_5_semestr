@@ -1,15 +1,4 @@
-# FastAPI Auth Service
 
-Сервис аутентификации на FastAPI с использованием JWT токенов.
-
-## Технологии
-
-- FastAPI
-- SQLite
-- JWT (JSON Web Tokens)
-- SQLAlchemy
-- Pydantic
-- Python 3.8+
 
 ## Установка
 
@@ -23,7 +12,3 @@ pip install -r requirements.txt
 ```bash
 uvicorn src.main:app --reload
 ```
-
-## Лицензия
-
-MIT 
